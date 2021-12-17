@@ -1,0 +1,31 @@
+{
+  "name": "file-rename-cli",
+  "version": "1.0.0",
+  "description": "文件重命名",
+  "bin": {
+    "frn": "/bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/666haiwei666/file-rename.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/666haiwei666/file-rename/issues"
+  },
+  "homepage": "https://github.com/666haiwei666/file-rename#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0",
+    "inquirer": "^8.2.0",
+    "ora": "^5.4.1",
+    "semver": "^7.3.5",
+    "valid-filename": "^4.0.0"
+  },
+  "engines": {
+    "node": ">= 7.6.0"
+  }
+}
