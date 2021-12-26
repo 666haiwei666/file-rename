@@ -16,15 +16,20 @@
     "url": "https://github.com/666haiwei666/file-rename/issues"
   },
   "homepage": "https://github.com/666haiwei666/file-rename#readme",
-  "dependencies": {},
+  "dependencies": {
+    "fs-extra": "^10.0.0"
+  },
   "devDependencies": {
     "chalk": "^4.1.2",
     "commander": "^8.3.0",
     "inquirer": "^8.2.0",
     "ora": "^5.4.1",
-    "semver": "^7.3.5",
-    "valid-filename": "^4.0.0"
+    "rimraf": "^3.0.2",
+    "semver": "^7.3.5"
   },
+  "os": [
+    "win32"
+  ],
   "engines": {
     "node": ">= 7.6.0"
   }
