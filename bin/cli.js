@@ -47,7 +47,7 @@ program
 
 program
     .command('revoke')
-    .description('Undo rename operation（撤销重命名操作）')
+    .description('Undo rename operation（撤销配置文件重命名操作）')
     .allowUnknownOption()
     .action(createRevokeAction)
 

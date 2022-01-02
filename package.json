@@ -1,6 +1,6 @@
 {
   "name": "file-rename-cli",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "文件重命名",
   "bin": {
     "frn": "/bin/cli.js"
