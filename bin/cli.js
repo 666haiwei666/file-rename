@@ -8,6 +8,7 @@ const { createMcAction } = require('../lib/mc.js')
 const { createInspectAction } = require('../lib/inspect')
 const { createRevokeAction } = require('../lib/revoke')
 const { createClearAction } = require('../lib/clear')
+const { createMsAction } = require('../lib/ms')
 const pkg = require(path.join(__dirname, '../package'))
 const program = new Command()
 
@@ -26,6 +27,11 @@ program
     .command('mi')
     .description('Rename multiple files by order(通过序号重命名多个文件)')
     .action(createMiAction)
+
+program
+    .command('ms')
+    .description('Rename files by setting a uniform suffix(通过设置统一后缀重命名文件)')
+    .action(createMsAction)
 
 program
     .command('mc')

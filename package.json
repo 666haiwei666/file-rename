@@ -16,13 +16,13 @@
     "url": "https://github.com/666haiwei666/file-rename/issues"
   },
   "homepage": "https://github.com/666haiwei666/file-rename#readme",
-  "dependencies": {
-    "fs-extra": "^10.0.0"
-  },
   "devDependencies": {
     "chalk": "^4.1.2",
     "commander": "^8.3.0",
+    "fs-extra": "^10.0.0",
     "inquirer": "^8.2.0",
+    "js-yaml": "^4.1.0",
+    "node-fetch": "^3.1.0",
     "ora": "^5.4.1",
     "rimraf": "^3.0.2",
     "semver": "^7.3.5"
@@ -32,5 +32,8 @@
   ],
   "engines": {
     "node": ">= 7.6.0"
+  },
+  "dependencies": {
+    "request": "^2.88.2"
   }
 }
