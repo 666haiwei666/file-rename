@@ -1,6 +1,6 @@
 {
   "name": "file-rename-cli",
-  "version": "0.0.1",
+  "version": "0.0.1-beta.1",
   "description": "文件重命名",
   "bin": {
     "frn": "/bin/cli.js"
@@ -34,6 +34,7 @@
     "node": ">= 7.6.0"
   },
   "dependencies": {
+    "@nodelib/fs.scandir": "^2.1.5",
     "request": "^2.88.2"
   }
 }
